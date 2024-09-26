@@ -24,13 +24,13 @@ driver.maximize_window()
 usuario = driver.find_element(By.XPATH,"//input[@placeholder='Nome de usuário ou e-mail']")
 sleep(0.5)
 usuario.click()
-usuario.send_keys('aghastvirus47@gmail.com')
+usuario.send_keys('') # Seu email do BandLab
 sleep(0.5)
 # Entrada da Senha
 senha = driver.find_element(By.XPATH,"//input[@placeholder='Insira ao menos 6 caracteres']")
 sleep(0.5)
 senha.click()
-senha.send_keys('7355608n')
+senha.send_keys('') #Sua senha do BandLab
 sleep(0.5)
 # Clique em entrar
 entrar = driver.find_element(By.XPATH, "//button[@class='button-dark button-height-40 button-rounded button-padding-fill']")
